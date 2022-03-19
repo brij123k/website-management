@@ -1,0 +1,43 @@
+.button-div{
+    height: 25vh;
+    width: 85.6vw;
+    background-color: rgb(229, 229, 229);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    justify-content: space-between;
+    top: 30rem;
+    
+}
+.button-proceed{
+background-color: rgb(54, 201, 54);
+height: 30%;
+width: 37%;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+border-radius: 0.2rem;
+ margin-right: 10rem; 
+ color: #fff;
+ 
+}
+.button-pp p{
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+@media(max-width:360px){
+    .button-div{
+    top: 35rem;
+    width: 95vw;
+    }
+}
+ 
+@media(max-width:360px){
+   .button-proceed{
+border: 2px soild #4caf50;
+ margin-right: 1rem; 
+}
+}
